@@ -1,0 +1,26 @@
+{
+  "name": "Practice_markdownBlog",
+  "version": "1.0.0",
+  "description": "This is a practice project building a Markdown Blog using Node.js, Express, And MongoDB. I used this video tutorial as reference. https://www.youtube.com/watch?v=1NrHkjlWVhM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkwagneriii/Practice_markdownBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkwagneriii/Practice_markdownBlog/issues"
+  },
+  "homepage": "https://github.com/jkwagneriii/Practice_markdownBlog#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}
