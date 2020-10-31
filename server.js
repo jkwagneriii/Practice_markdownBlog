@@ -22,6 +22,6 @@ app.get('/', (req, res) => {
 
 
 
-app.listen(5000);
+app.listen(process.env.PORT || 3000);
 
 //PICK BACK UP AT 15:30 JAKE
